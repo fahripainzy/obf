@@ -1,23 +1,29 @@
 {
-  "name": "encrypt-bot",
-  "version": "1.0.0",
-  "description": "Fahri Obf",
+  "name": "VANDALOS INC",
+  "version": "1.0",
   "main": "bot.js",
   "scripts": {
     "start": "node bot.js"
   },
-  "author": "PutraObf",
-  "license": "MIT",
   "dependencies": {
+    "@whiskeysockets/baileys": "github:seiren-primrose/PL-Baileys",
+    "moment": "^2.30.1",
     "axios": "^1.8.2",
-    "fs-extra": "^11.2.0",
+    "chalk": "^4.1.2",
+    "crypto": "^1.0.1",
     "express": "^4.18.4",
-    "js-confuser": "1.0.9",
+    "fs-extra": "^11.2.0",
+    "@octokit/rest": "latest",
+    "js-confuser": "latest",
+    "dotenv": "^16.4.7",
+    "fs-extra": "^11.2.0",
+    "pino": "^9.6.0",
     "ssh2": "^1.16.0",
     "telegraf": "^4.16.3",
     "webcrack": "^2.15.0"
   },
-  "engines": {
-    "node": ">=14.0.0"
-  }
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
 }
