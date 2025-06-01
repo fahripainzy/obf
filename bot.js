@@ -7,6 +7,17 @@ const axios = require('axios');
 const { webcrack } = require("webcrack");
 const crypto = require("crypto")
 const { Client } = require('ssh2');
+const express = require('express');
+const app = express();
+
+app.get('/', (req, res) => {
+  res.send('Bot Obf Fahri Connected🟢');
+});
+
+const PORT = process.env.PORT || 3000;
+app.listen(PORT, () => {
+  console.log(`Server jalan di port ${PORT}`);
+});
 
 const bot = new Telegraf(config.BOT_TOKEN);
 const userData = {};
